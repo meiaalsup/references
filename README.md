@@ -10,3 +10,5 @@ Just a few things I don't want to forget
 * wdiff
 * tig
 
+## Tool Reference
+* [Vim Cheatsheet](https://www.internalpointers.com/post/humble-vim-cheat-sheet)
