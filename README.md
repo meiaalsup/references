@@ -41,3 +41,5 @@ Run all the tests in a file:
 go test -v -run $(cat test_file_name.go | testcases)`
 
 
+## watch but on MacOS
+`while :; do clear; {command, ie ls *| wc -l}; sleep {SECONDS}; done`
