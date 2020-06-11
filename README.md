@@ -13,12 +13,20 @@ forget.
 * [Vim Cheatsheet](https://www.internalpointers.com/post/humble-vim-cheat-sheet)
 
 
+
 ## find
-`find . -type f -name "*.out" | xargs grep -n -F "FAIL"`
-* `find <dir> -type <f=file> -name <string to match>`
-* grep <flags> "Search-String"
-*   grep -n: prints the line number and file name
-*   grep -F: doesn't use regex, makes find faster if nothing to match
+Find example
+* `find . -type f -name "*.out" | xargs grep -n -F "FAIL"`
+    * `find <dir> -type <f=file> -name <string to match>`
+    * grep <flags> "Search-String"
+        * grep -n: prints the line number and file name
+        * grep -F: doesn't use regex, makes find faster if nothing to match
+
+Find example excluding anything not of type file
+* `find . \( ! -type f \) | wc -l`
+
+## list size of subdirectories recursively
+`ls | xargs -I {} sh -c "ls {} | wc -l"`
 
 
 ## wdiff - word diff
