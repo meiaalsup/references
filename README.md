@@ -43,3 +43,13 @@ go test -v -run $(cat test_file_name.go | testcases)`
 
 ## watch but on MacOS
 `while :; do clear; {command, ie ls *| wc -l}; sleep {SECONDS}; done`
+
+
+## Machine Learning
+* batch size - really `mini-batch` size - smaller than data set usually
+    * if this is 1 - stochastic gradient descent
+* epoch - refers to going through full data set. (enough iters with batch size
+  to "see" every point). - rounding is unclear
+
+
+
