@@ -8,10 +8,10 @@ forget.
 * ncdu
 * wdiff
 * tig
+* shellcheck
 
 ## Tool Reference
 * [Vim Cheatsheet](https://www.internalpointers.com/post/humble-vim-cheat-sheet)
-
 
 
 ## find
@@ -51,5 +51,9 @@ go test -v -run $(cat test_file_name.go | testcases)`
 * epoch - refers to going through full data set. (enough iters with batch size
   to "see" every point). - rounding is unclear
 
-
+## Shell stuff
+* source vs ./
+    * source runs in current session (ie sets environment variables in your 
+      current session)
+    * ./ runs in new session
 
