@@ -51,6 +51,11 @@ go test -v -run $(cat test_file_name.go | testcases)`
 * epoch - refers to going through full data set. (enough iters with batch size
   to "see" every point). - rounding is unclear
 
+### Regularization
+* L2 (ridge) - penalizes large edge weights, sum of squares of weights
+    * Bayesian Prior: weights should be centered around zero and mormally dist.
+    * TotalLoss = Loss(Data|Model) + $\lambda(w_1^2 + ... w_m^2)$
+
 ## Shell stuff
 * source vs ./
     * source runs in current session (ie sets environment variables in your 
