@@ -21,7 +21,7 @@ Find example
     * grep <flags> "Search-String"
         * grep -n: prints the line number and file name
         * grep -F: doesn't use regex, makes find faster if nothing to match
-
+st ello
 Find example excluding anything not of type file
 * `find . \( ! -type f \) | wc -l`
 
@@ -62,3 +62,10 @@ go test -v -run $(cat test_file_name.go | testcases)`
       current session)
     * ./ runs in new session
 
+
+## Shortcuts
+* command-tab : switches between applications
+* command-` : cycles through windows
+* command-. : close dialog
+* command-h : hide window
+* control-tab : swtich between tabs in chrome, between conversations in whatsapp
