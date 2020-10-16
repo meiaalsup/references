@@ -65,7 +65,8 @@ go test -v -run $(cat test_file_name.go | testcases)`
 
 ## Shortcuts
 * command-tab : switches between applications
-* command-` : cycles through windows
+* command-\` : cycles through windows
 * command-. : close dialog
 * command-h : hide window
 * control-tab : swtich between tabs in chrome, between conversations in whatsapp
+* option-command-0 : remove formatting (ie dropbox paper)
