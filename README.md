@@ -74,8 +74,9 @@ go test -v -run $(cat test_file_name.go | testcases)`
 * command-\` : cycles through windows
 * command-. : close dialog
 * command-h : hide window
-* control-tab : swtich between tabs in chrome, between conversations in whatsapp
+* control-tab : switch between tabs in chrome, between conversations in whatsapp
 * option-command-0 : remove formatting (ie dropbox paper)
+* command-0: reset zoom (ie. fix google maps)
 
 ## [Repl.it](https://repl.it)
 repl.it - online code sandbox - great for C++
