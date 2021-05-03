@@ -62,6 +62,12 @@ go test -v -run $(cat test_file_name.go | testcases)`
       current session)
     * ./ runs in new session
 
+## Tmux stuff
+* `swap-window -s 1 -t 2` swaps window 1 and window 2
+* `C-q z` makes a pane full screen
+* `C-q ?` brings up shortcut definitions
+* `C-q r` reloads tmux definition
+
 
 ## Shortcuts
 * command-tab : switches between applications
